@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>De-Shopping Application</title>
+    <!-- font-awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
+    <style>
+        .bg-img{
+            background: linear-gradient(to top, rgba(0,0,0,.1)50%,
+            rgba(0,0,0,.1)50%), url('assets/img/bg-img.jpg') no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+        }
+        .bg-2{
+            background: linear-gradient(to top, rgba(0,0,0,.3)50%,
+            rgba(0,0,0,.3)50%), url('assets/img/bg-2.jpeg') no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 400px;
+            margin-top: 10px;
+        }
+        .new-on-deshop{
+            background: linear-gradient(to top, rgba(0,0,0,.3)50%,
+            rgba(0,0,0,.3)50%),url('assets/img/bed-room.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+            padding: 20px;
+            margin: 30px 0;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-full">
+        <!-- top nav -->
+        <div class="topnav">
+            <span class="toggle-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <ul class="text-list">
+                <li>
+                    50% Off Cards & Invitation *
+                </li>
+                <li>25% Off Student Discount
+                     <i class="fas fa-arrow-right"></i>
+                </li>
+                <li>Free Shipping with de-shop 
+                    <i class="fas fa-arrow-right"></i>
+                </li>
+            </ul>
+        </div>
+        <!-- side nav -->
+        <div class="container">
+            <div class="sidenav">
+                <ul>
+                    <li><a href="#" class="item-link">
+                        <i class="fas fa-bars"></i>
+                    </a></li>
+                    <li><a href="#" class="item-link">
+                        <i class="fas fa-gift"></i>
+                        <span>Gifts</span> 
+                    </a></li>
+                    <li><a href="#" class="item-link">
+                        <i class="fas fa-line-chart"></i>
+                        <span>Trending</span> 
+                    </a></li>
+                    <li><a href="#" class="item-link">
+                        <i class="fas fa-random"></i>
+                        <span>Sell</span>      
+                    </a></li>
+                    <li><a href="#" class="item-link">
+                        <i class="fas fa-dollar"></i>
+                        <span>My Stuff</span>
+                    </a></li>
+                    <li><a href="#" class="item-link">
+                        <i class="fas fa-camera-retro"></i>
+                        <span>Live</span>
+                    </a></li>
+                    <li><a href="#" class="item-link">
+                        <i class="fab fa-wpexplorer"></i>
+                        <span>Explore</span>
+                    </a></li>
+                    <li><a href="#" class="item-link">
+                        <i class="fas fa-plus-square"></i>
+                        <span>Create</span>
+                    </a></li>
+                </ul>
+            </div>
+            <!-- main content -->
+            <div class="main-container">
+                <nav>
+                    <div class="search-bar">
+                        <a href="index.html">DE-SHOP</a>
+                        <div class="input-group">
+                            <input type="text" name="search" id="search" 
+                            placeholder="search for product or design">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="btn-shop">
+                        <a href="#">SELL ON DE-SHOP</a>
+                        <a href="#">SIGN IN</a>
+                        <a href="#" class="fas fa-globe"></a>
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                    </div>
+                </nav>
+                <!-- https://www.zazzle.com/photo+gifts -->
+                <div class="list">
+                    <a href="#" class="shop">Shop</a>
+                    <a href="#" class="explore">Explore</a>
+                </div>
+                <div class="bg-img">
+                    <div class="wel-info">
+                        <h3>unigue photo gifts</h3>
+                        <h2>Snap Happy</h2>
+                        <p>Capture,save, and gift summer memories</p>
+                        <button class="shop-now">shop now</button>
+                    </div>
+                    <!-- <img src="assets/img/2.jpg" alt=""> -->
+                </div>
+                <!-- about de-shop -->
+                <div class="about-de-shop">
+                    <h1>Welcome to De-Shop</h1>
+                    <p><a href="#">sign in</a> to personalize your experience</p>
+                    <span class="border-bottom"></span>
+                    <h4>One-of-a-kind finds</h4>
+                </div>
+                <!-- product -->
+                <div class="row">
+                    <div class="products">
+                        <img src="assets/img/1.jpg" alt="">
+                        <p>Clothes</p>
+                    </div>
+                    <div class="products">
+                        <img src="assets/img/5.jpg" alt="">
+                        <p>Black to School</p>
+                    </div>
+                    <div class="products">
+                        <img src="assets/img/women.jpeg" alt="">
+                        <p>Dorm Room Decor</p>
+                    </div>
+                    <div class="products">
+                        <img src="assets/img/pex.jpeg" alt="">
+                        <p>Crafts & Party Supplies</p>
+                    </div>
+                    <div class="products">
+                        <img src="assets/img/11.jpeg" alt="">
+                        <p>Grandparents' Day Gifts</p>
+                    </div>
+                    <div class="products">
+                        <img src="assets/img/ff.jpeg" alt="">
+                        <p>Fall Home Décor</p>
+                    </div>
+                    <div class="products">
+                        <img src="assets/img/240.jpg" alt="">
+                        <p>Wall Art</p>
+                    </div>
+                    <div class="products">
+                        <img src="assets/img/240f.jpg" alt="">
+                        <p>Drinkware</p>
+                    </div>
+                </div>
+                <!-- row -->
+                <div class="wrapper">
+                    <div class="bg-2">
+                        <h1>Wedding Decor & Supplies</h1>
+                        <p>
+                            Plan your dream day with custom <br>
+                            stationery, decor, favors & more
+                        </p>
+                        <button class="shop--now">shop now</button>
+                    </div>
+                </div>
+                <!-- Featured Creators -->
+                <section class="featured-creators">
+                    <span class="border-hr"></span>
+                    <h1>Featured Creators</h1>
+                    <div class="parent-creator">
+                        <div class="features">
+                            <div class="featured-img">
+                                <div class="img-bck">
+                                    <img src="assets/img/pex.jpeg" alt="">
+                                </div>
+                                <img src="assets/img/11.jpeg" alt="">
+                            </div>
+                            <p>IIze Lucero</p>
+                        </div>
+                        <div class="features">
+                            <div class="featured-img">
+                                <div class="img-bck">
+                                    <img src="assets/img/4.jpg" alt="">
+                                </div>
+                                <img src="assets/img/3.jpg" alt="">
+                            </div>
+                            <p>Carey Copeland</p>
+                        </div>
+                        <div class="features">
+                            <div class="featured-img">
+                                <div class="img-bck">
+                                    <img src="assets/img/men.jpeg" alt="">
+                                </div>
+                                <img src="assets/img/5.jpg" alt="">
+                            </div>
+                            <p>Sarah Brown</p>
+                        </div>
+                        <div class="features">
+                            <div class="featured-img">
+                                <div class="img-bck">
+                                    <img src="assets/img/5.jpg" alt="">
+                                </div>
+                                <img src="assets/img/4.jpg" alt="">
+                            </div>
+                            <p>Marielle Scheffer-Ensink</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Offically Licensed Merchandise -->
+                <section class="licensed">
+                    <span class="border-hr"></span>
+                    <h1>Offically Licensed Merchandise</h1>
+                    <div class="licensed-container">
+                        <div class="inner-license">
+                            <img src="assets/img/1.jpg" alt="">
+                            <h5>Johnny Bravo</h5>
+                        </div>
+                        <div class="inner-license">
+                            <img src="assets/img/photo.jpeg" alt="">
+                            <h5>She Hulk</h5>
+                        </div>
+                        <div class="inner-license">
+                            <img src="assets/img/women.jpeg" alt="">
+                            <h5>House of the Dragon</h5>
+                        </div>
+                        <div class="inner-license">
+                            <img src="assets/img/men.jpeg" alt="">
+                            <h5>Offically Licensed College Goar</h5>
+                        </div>
+                    </div>
+                    <a href="#" class="show-all">See all Brands  
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                </section>
+                <!-- new products -->
+                <section class="new-products">
+                    <span class="border-hr"></span>
+                    <h1>New Products</h1>
+                    <div class="product-container">
+                        <div class="product">
+                            <img src="assets/img/sbs.jpg" alt="">
+                            <h5>Skateboards</h5>
+                        </div>
+                        <div class="product">
+                            <img src="assets/img/hers.jpg" alt="">
+                            <h5>Hershey Mini Bars</h5>
+                        </div>
+                        <div class="product">
+                            <img src="assets/img/bowls.jpeg" alt="">
+                            <h5>Paper Bowls</h5>
+                        </div>
+                        <div class="product">
+                            <img src="assets/img/wall.jpeg" alt="">
+                            <h5>wall Decals</h5>
+                        </div>
+                    </div>
+                </section>
+                <section class="container-wrap">
+                    <div class="new-on-deshop">
+                        <div class="imgtext">
+                            <h2>New on de-shop</h2>
+                            <h3>Real foil on full color</h3>
+                            <a href="#">
+                                Take your invitation to the next level 
+                                with our new <br> real foil options 
+                            </a>
+                            <a href="#" class="shop-now">shop now</a>
+                        </div>
+                        <div class="imgtext">
+                            <div class="sw-img">
+                                <img src="assets/img/swt16.jpg" alt="">
+                                <img src="assets/img/love-gt.jpg" alt="">
+                                <img src="assets/img/bbshower.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="show-all">See More New Arrivals
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </section>
+                <!-- inspirational section -->
+                <section class="inspirations">
+                    <span class="border-hr"></span>
+                    <h1>Ideals & Inspiration</h1>
+                    <div class="inspirations-container">
+                        <div class="inspiration">
+                            <img src="assets/img/bcksk.jpg" alt="">
+                        </div>
+                        <div class="inspiration">
+                            <h2>2022 Back to School</h2>
+                            <h3>Supplies List</h3>
+                            <p>Start the new school year with new school supplies</p>
+                            <a href="#" class="text-link">
+                                Read "Top Back to School Supplies for 2022" on de-shop Ideas >
+                            </a>
+                        </div>
+                        <div class="inspiration">
+                            <h2>Classroom Decoration Ideas</h2>
+                            <p>Decorate your classroom for the new school year! </p>
+                            <a href="#" class="text-link">
+                                Read "Classroom Decoration Ideas" on Zazzle Ideas >
+                            </a>
+                        </div>
+                        <div class="inspiration">
+                            <img src="assets/img/classroom.jpg" alt="">
+                        </div>
+                        <div class="inspiration">
+                            <img src="assets/img/todaym.png" alt="">
+                        </div>
+                        <div class="inspiration">
+                            <h2>Today's Moment</h2>
+                            <p>
+                                Moments of inspiration. <br>
+                                For every day of the week.
+                            </p>
+                            <a href="#" class="read-more">Read Now</a>
+                        </div>
+                    </div>
+                </section>
+                <!--Gallery -->
+                <section class="gallery">
+                    <a href="#" class="ins-gallery">
+                        Inspiration Gallery <i class="fas fa-angle-double-right"></i>
+                    </a>
+                    <div class="gallery-inner">
+                        <img src="assets/img/wall.jpeg" alt="">
+                        <img src="assets/img/5.jpg" alt="">
+                        <img src="assets/img/bowls.jpeg" alt="">
+                        <img src="assets/img/ww.jpg" alt="">
+                        <img src="assets/img/beg.jpeg" alt="">
+                        <img src="assets/img/graphic_designer.jpg" alt="">
+                    </div>
+                    <p>Love it. Snap it. Share it. #De-shop</p>
+                </section>
+                <!-- Enjoy Special Offers -->
+                <section class="enjoy-office">
+                    <span class="border-hr"></span>
+                    <h1>Enjoy Special Offers</h1>
+                    <div class="offices">
+                        <div class="ffe">
+                            <img src="assets/img/hapff.jpeg" alt="">
+                        </div>
+                        <div class="ffe">
+                            <h1>Refer-a-Friend</h1>
+                            <p>Get $25 to spend each time you refer a friend</p>
+                            <a href="#" class="refer">REFER FRIENDS NOW</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- bestsellers -->
+                <section class="bestsellers">
+                    <div class="headline">
+                        <span class="border-hr"></span>
+                        <h1>Best Sellers</h1>
+                    </div>
+                    <div class="sliders-container">
+                        <div class="sliders">
+                            <img src="assets/img/c42.jpg" alt="">
+                            <h4>Personalized Hospital Employee Logo &...</h4>
+                            <h3>4.00</h3>
+                            <p>15% Off with code MIDWEE...</p>
+                        </div>
+                        <div class="sliders">
+                            <img src="assets/img/qrc.jpg" alt="">
+                            <h4>Custom logo modern...</h4>
+                            <h3>$29.00</h3>
+                            <p>50% off with code MIDWEE</p>
+                        </div>
+                        <div class="sliders">
+                            <img src="assets/img/attac.png" alt="">
+                            <h4>Safety Pin name tag or...</h4>
+                            <h3>$6.00</h3>
+                            <p>15% off with code MIDWE</p>
+                        </div>
+                        <div class="sliders">
+                            <img src="assets/img/QR-code.jpg" alt="">
+                            <h4>QR Code Business Logo Black Modern..</h4>
+                            <h3>$27.00</h3>
+                            <p>50% off with code MIDWE</p>
+                        </div>
+                        <div class="sliders">
+                            <img src="assets/img/brow.png" alt="">
+                            <h4>Custom Employee-Photo Bar Code</h4>
+                            <h3>$4.00</h3>
+                            <p>15% off with code MIDWE</p>
+                        </div>
+                        <div class="sliders">
+                            <img src="assets/img/bangle.png" alt="">
+                            <h4>Custom Employee-Photo Bar Code</h4>
+                            <h3>$4.00</h3>
+                            <p>15% off with code MIDWE</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Our Community -->
+                <section class="community">
+                    <span class="border-hr"></span>
+                    <h1>Our Community</h1>
+                    <div class="community-container">
+                        <div class="col-6">
+                            <img src="assets/img/own.jpg" alt="">
+                            <h2>Create Your Own</h2>
+                            <p>
+                                Customize an existing product or
+                                create your own from scratch!
+                            </p>
+                            <a href="#" class="outline">create now</a>
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/img/maker.jpg" alt="">
+                            <h2>Creators</h2>
+                            <p>
+                                Sell your designs, art, and photography on 
+                                thousands of products with a few click.
+                            </p>
+                            <a href="#" class="outline">start selling</a>
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/img/graphic_designer.jpg" alt="">
+                            <h2>Makers</h2>
+                            <p>
+                                Sell your customizable products to millions of 
+                                customers in the Zazzle Marketplace
+                            </p>
+                            <a href="#" class="outline">register now</a>
+                        </div>
+                    </div>
+                </section>
+                 <!-- footer -->
+                <section class="sub-form">
+                    <span class="border-form"></span>
+                    <h1>Get Exclusive Offers</h1>
+                    <form action="#" method="POST" id="form">
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email Address">
+                        </div>
+                        <input type="submit" value="Sign up Now">
+                    </form>
+                </section>
+                <footer class="footer">
+                    <div class="heading">
+                        <h1>De-SHOP</h1>
+                        <p>Create your mement"</p>
+                        <hr width="50%">
+                    </div>
+                    <div class="footer-links">
+                        <div class="quick-links">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Corporate Responsibility</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Sell on de-shop</a></li>
+                            </ul>
+                        </div>
+                        <div class="quick-links">
+                            <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Community Guideline</a></li>
+                                <li><a href="#">Track my order</a></li>
+                                <li><a href="#">Return Polly</a></li>
+                            </ul>
+                        </div>
+                        <div class="quick-links">
+                            <ul>
+                                <li><a href="#">Sitemap</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="quick-links">
+                            <ul>
+                                <li><a href="#">De-shop Ideas</a></li>
+                                <li><a href="#">Refer a Friend</a></li>
+                                <li>Content Filtter:<a href="#"> Safa</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="select">
+                        <select name="country" id="countries">
+                            <option value="USA">USA</option>
+                            <option value="USA">UGANDA</option>
+                            <option value="USA">KENYA</option>
+                            <option value="USA">RWANDA</option>
+                            <option value="USA">CONGO</option>
+                        </select>
+                    </div>
+                    <!-- social media -->
+                    <div class="social-media">
+                        <div class="medias">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="btn-small">
+                            <a href="#">
+                                <img src="assets/img/app-store.png" alt="">
+                            </a>
+                            <a href="#"><img src="assets/img/google-play.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright © 2000-2022, De-shop. All rights reserved.</p>
+                        <div class="agree">
+                            <a href="#">User Agreement</a>
+                            <a href="#">Pivacy Pollcy</a>
+                            <a href="#">Community Guidelines</a>
+                            <a href="#">Accessibility</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- custom js -->
+    <script src="assets/js/select.js"></script>
+</body>
+</html>
